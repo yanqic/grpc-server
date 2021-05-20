@@ -10,7 +10,7 @@ const microserviceOptions = {
   options: {
     package: 'app',
     url: '0.0.0.0:50051',
-    protoPath: join(__dirname, '../src/protos/app.proto'),
+    protoPath: join(__dirname, '../src/protos/index.proto'),
     loader: {
       includeDirs: [join(__dirname, '..', 'protos')],
     },
